@@ -75,7 +75,7 @@ function App() {
 
   async function deposit(amount) {
    
-    if (typeof state.dbank !== "undefinded") {
+    if (typeof state.dbank !== "undefined") {
       try {
         await state.dbank.methods
           .deposit()
@@ -99,7 +99,7 @@ function App() {
         window.alert("Success");
         window.location.reload();
       } catch (error) {
-        console.log("ERROR: ", error.message);
+        console.log("ERROR");
       }
     }
   }
@@ -114,8 +114,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <b>
-            My first DEFI Ethereum App with Solidity and truffle framework.{" "}
-            <i className="text-warning">JFDESOUSA</i>
+            <i className="text-warning">JFDESOUSA</i> Descentralized Bank
           </b>
         </a>
       </nav>
