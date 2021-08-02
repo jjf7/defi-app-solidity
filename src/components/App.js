@@ -108,7 +108,7 @@ function App() {
     <div className="text-monospace">
       <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
         <a
-          className="navbar-brand col-sm-3 col-md-2 mr-0"
+          className="navbar-brand text-center col-sm-12 mr-0"
           href="https://tupaginaonline.net"
           target="_blank"
           rel="noopener noreferrer"
@@ -167,10 +167,10 @@ function App() {
                     </button>
                   </div>
                 </Tab>
-                <Tab eventKey="interest" title="Interest">
+                <Tab eventKey="interest" title={`${symbol} token balance`}>
                   <div className="pt-3">
                     <div className="alert alert-info">
-                      You have <b>{interest}</b> <code>{symbol} tokens</code>{" "}
+                      You have <b>{interest}</b> <code>{symbol}</code>{" "}
                       <i>earned</i>
                     </div>
                   </div>
