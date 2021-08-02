@@ -1,8 +1,8 @@
 {
   "name": "dbank",
   "version": "0.1.0",
-  "description": "Decentralized Bank",
-  "author": "dev@dappuniversity.com",
+  "description": "My first DEFI Ethereum App with Solidity and truffle framework.",
+  "author": "jfdesousa",
   "homepage": ".",
   "dependencies": {
     "@openzeppelin/contracts": "3.3.0",
@@ -18,13 +18,13 @@
     "chai-as-promised": "7.1.1",
     "chai-bignumber": "3.0.0",
     "dotenv": "8.2.0",
-    "react": "16.13.1",
-    "react-bootstrap": "1.3.0",
-    "react-dom": "16.13.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
     "react-scripts": "3.4.3",
     "truffle": "5.1.63",
     "truffle-hdwallet-provider-privkey": "0.3.0",
-    "web3": "1.2.6"
+    "web3": "^1.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
