@@ -121,7 +121,7 @@ function App() {
       <div className="container-fluid mt-5 text-center">
         <br></br>
         <h2>
-          Welcome to my decentralized bank where you will earn JFDS tokens
+          Welcome to my decentralized bank where you will earn <code>JFDS</code> tokens
           <code></code>
         </h2>
         <h4>

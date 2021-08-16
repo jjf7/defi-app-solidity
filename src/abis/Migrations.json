@@ -845,12 +845,12 @@
     "1337": {
       "events": {},
       "links": {},
-      "address": "0xCD7A7347C4B3300aEA4642428339F79266C1D092",
-      "transactionHash": "0xdb29c9b235f365796e6289b47fc75bafb76f13e7d3944b641ec3424702bdafa3"
+      "address": "0x52BB3e68515Be91ff7f352ecb83444F2Bc45Aee9",
+      "transactionHash": "0xea64eb11c87aa42622e0ffb02fe77a14baa200e213b84341364459fabb077a37"
     }
   },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-08-02T20:48:59.626Z",
+  "updatedAt": "2021-08-02T22:58:31.823Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
